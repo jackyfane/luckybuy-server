@@ -1,0 +1,1 @@
+WeChat Mini Program，Node.js，Express，Sequelize，based on MVC

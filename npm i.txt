@@ -1,0 +1,16 @@
+
+npm i express
+npm i body-parser
+npm i multer
+
+npm i mime
+npm i mysql
+
+npm i request
+npm i fast-xml-parser
+npm i he
+
+npm i sequelize
+npm i mysql2
+npm i moment
+npm i morgan

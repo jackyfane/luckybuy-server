@@ -1,0 +1,27 @@
+{
+  "name": "spell_luck-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "fast-xml-parser": "^3.12.12",
+    "file-stream-rotator": "^0.4.1",
+    "he": "^1.2.0",
+    "http-errors": "~1.6.2",
+    "log4js": "^4.1.0",
+    "moment": "^2.23.0",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "mysql2": "^1.6.5",
+    "request": "^2.88.0",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0",
+    "supertest": "^3.3.0"
+  }
+}

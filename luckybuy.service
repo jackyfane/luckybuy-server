@@ -1,0 +1,16 @@
+[Unit]
+Description=SpellLuckService
+After=network.target
+ 
+[Service]
+User=qyg
+Group=qyg
+ 
+Type=oneshot
+ 
+ExecStart=/qyg/app/spell_hand/1.0-alpha/spell_luck.sh
+
+PrivateTmp=true
+ 
+[Install]
+WantedBy=multi-user.target
